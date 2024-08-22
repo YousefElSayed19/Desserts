@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="page">
+        <div class="done ">
+            <i class="fa-solid fa-check w-100" ></i>
+            <p class="textEnd w-100 text-center">Done !</p>
+        </div>
+        <div class="container d-grid">
+            <div class="row parent">
+                <div class="col-lg-9 left">
+                    <h1>Desserts</h1>
+                    <div class="cards d-grid">
+                        <div class="row">
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-waffle-desktop.jpg" alt="" id="i0">
+                                <span class="add" onclick="show(this.id)" id="0">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s0">
+                                    <p class="marka">Waffle</p>
+                                    <p class="name">Waffle With Berries</p>
+                                    <p class="price"><span>$</span><span>6.50</span></p>
+                                    
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-creme-brulee-desktop.jpg" alt="" id="i1">
+                                <span class="add" onclick="show(this.id)" id="1">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s1">
+                                    <p class="marka">Creme Brulee</p>
+                                    <p class="name">Vanilla Bean Creme Brulee</p>
+                                    <p class="price"><span>$</span><span>7.00</span></p>
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-macaron-desktop.jpg" alt="" id="i2">
+                                <span class="add" onclick="show(this.id)" id="2">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s2">
+                                    <p class="marka">Macaron</p>
+                                    <p class="name">Macaron Mix Of Five</p>
+                                    <p class="price"><span>$</span><span>8.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-tiramisu-desktop.jpg" alt="" id="i3">
+                                <span class="add" onclick="show(this.id)" id="3">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s3">
+                                    <p class="marka">Tiramisu</p>
+                                    <p class="name">Classic Tiramisu</p>
+                                    <p class="price"><span>$</span><span>5.50</span></p>
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-baklava-desktop.jpg" alt="" id="i4">
+                                <span class="add" onclick="show(this.id)" id="4">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s4">
+                                    <p class="marka">Baklava</p>
+                                    <p class="name">Pistachio Baklava</p>
+                                    <p class="price"><span>$</span><span>4.00</span></p>
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-meringue-desktop.jpg" alt="" id="i5">
+                                <span class="add" onclick="show(this.id)" id="5">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s5">
+                                    <p class="marka">Pie</p>
+                                    <p class="name">Lemon Meringue Pie</p>
+                                    <p class="price"><span>$</span><span>5.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-cake-desktop.jpg" alt="" id="i6">
+                                <span class="add" onclick="show(this.id)" id="6">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s6">
+                                    <p class="marka">Cake</p>
+                                    <p class="name">Red Velvet Cake</p>
+                                    <p class="price"><span>$</span><span>4.50</span></p>
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-brownie-desktop.jpg" alt="" id="i7">
+                                <span class="add" onclick="show(this.id)" id="7">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s7">
+                                    <p class="marka">Brownie</p>
+                                    <p class="name">Salted Caramel Brownie</p>
+                                    <p class="price"><span>$</span><span>5.50</span></p>
+                                </div>
+                            </div>
+                            <div class="cord col-lg-4 col-md-6">
+                                <img src="./images/image-panna-cotta-desktop.jpg" alt="" id="i8">
+                                <span class="add" onclick="show(this.id)" id="8">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Add To Cart
+                                </span>
+                                <div class="text" id="s8">
+                                    <p class="marka">Panna Cotta</p>
+                                    <p class="name">Vanilla Panna Cotta</p>
+                                    <p class="price"><span>$</span><span>6.50</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  right">
+                    <h1>Your Cart(<span class="number">0</span>)</h1>
+                    <div class="d-grid items">
+                        <img src="./images/illustration-empty-cart.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popCount">
+        </div>
+        <div class="shodo"></div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
